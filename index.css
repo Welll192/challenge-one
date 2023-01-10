@@ -1,0 +1,169 @@
+body{
+    background: #E5E5E5;
+}
+#input {
+    background-color: #E5E5E5;;
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border-style: none;
+    color: #0A3871;
+}
+.logo{
+    position: absolute;
+    top: 40px;
+    left: 5.26%;
+}
+#buttonencriptar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    bottom: 10%;
+    left: 10.26%;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: aliceblue;
+    
+}
+#buttonencriptar:hover{
+ 
+    background: #3468a7;
+  
+}
+
+
+#buttondesencriptar{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 10%;
+    left: 35.26%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    justify-content: center;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#buttondesencriptar:hover{
+    background: #9f9fa0;
+}
+
+.derecha{
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    left: 68%;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    text-align: center;
+}
+.persona{
+    position: absolute;
+    left: 8.26%;
+    right: 29.27%;
+    top: 5.76%;
+    bottom: 63.22%;
+    background: #FFFFFF;
+}
+
+.p1{
+    width: 336px;
+    height: 58px;
+    position: absolute;
+    bottom: 15%;
+    left: 8.26%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.p2{
+    position: absolute;
+    bottom: 10%;
+    left: 8.26%;
+    width: 336px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.nuevoparrafo{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 32px;
+    top: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+.buttoncopiar{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    justify-content: center;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.buttoncopiar:hover{
+    background: #9f9fa0;
+}
